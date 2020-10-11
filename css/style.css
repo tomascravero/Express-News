@@ -1,0 +1,178 @@
+body{
+    font-family: 'Source Serif Pro', serif;
+
+}
+/* GLOBAL */ 
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 200;
+    line-height: 3.4375rem;
+    text-align: left;
+}
+
+h2{
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.25rem;
+}
+
+.main-content p{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.logo-img{
+    width: 12.188rem;
+}
+
+img{
+    width: 100%;
+}
+
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    width: 50rem;
+    margin: 0 auto;
+    /*border: solid 2px black;*/
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+figcaption{
+    font-size: 0.8125rem;
+}
+
+/* HEADER */
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100.313rem;
+    margin: 0 auto;
+    height: 36px;
+    padding: 4px 15px 2px 15px;
+}
+
+#menu-icon{
+    width: 1.25rem;
+}
+
+/* MAIN */
+
+.main-margin{
+    margin-top: 3.75rem;
+}
+
+.container-main{
+    width: 37.5rem;
+    margin: 0 auto;
+    /*border: solid 2px black;*/
+}
+
+.author-img{
+    width: 3.125rem;
+    margin-right: 0.625rem;
+    margin-bottom: 15px;
+}
+
+#author-name{
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
+
+.main-content{
+    text-align: left;
+}
+
+/* SECTIONS */ 
+
+.section-container{
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1.5fr 0.5fr;
+}
+
+.sect-content-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-title{
+    font-size: 1rem;
+    color: black;
+    border-top: solid 1px black;
+}
+
+.section-content{
+    width: 33%;
+}
+
+.section-content a figure figcaption{
+    font-size: 0.625rem;
+}
+
+.section-content a h3{
+    color: black;
+    line-height: 1.375rem;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+/* SECT MOST POPULAR */
+
+.section-pop h3{
+    border-top: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
+}
+
+.section-pop h3 a {
+    font-size: 1.1875rem;
+    text-decoration: none;
+    color: black;
+}
+
+/* NAVIGATION */
+
+.nav-container{
+    border-top: double;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
