@@ -1,10 +1,12 @@
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    
 }
 /* GLOBAL */ 
 
 p {
+    margin-top:  0.9375rem;
     margin-bottom: 0.9375rem;
 }
 
@@ -34,6 +36,13 @@ img {
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.iconos-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15rem;
 }
 
 a {
