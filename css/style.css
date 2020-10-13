@@ -4,13 +4,6 @@ body {
 }
 /* GLOBAL */ 
 
-h1 {
-    font-size: 2.5rem;
-    font-weight: 100;
-    line-height: 3.4375rem;
-    text-align: left;
-}
-
 p {
     margin-bottom: 0.9375rem;
 }
@@ -23,11 +16,6 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.25rem;
-}
-
-.main-content p {
-    font-size: 1.25rem;
-    line-height: 1.875rem;
 }
 
 .logo-img {
@@ -92,11 +80,21 @@ h3 {
     margin-top: 1rem;
 }
 
+.margin {
+    margin: 1rem 0;
+}
+
 /* HEADER */
 
 header {
     width: 100%;
     border-bottom: 1px solid #e2e2e2;
+}
+
+.header-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.25px;
+    font-weight: 700;
 }
 
 .header-container {
@@ -129,6 +127,28 @@ header {
 
 /* MAIN */
 
+.main-content p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+
+.h1-n1 {
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 3rem;
+}
+
+.h1-n2 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 3.4375rem;
+    text-align: left;
+}
+
 #img-main {
     margin-top: 1.563rem;
     margin-bottom: 1.563rem;
@@ -151,6 +171,7 @@ header {
 }
 
 #author-name {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9375rem;
     line-height: 1.25rem;
     font-weight: 700;
