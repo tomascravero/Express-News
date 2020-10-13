@@ -108,6 +108,20 @@ header {
     width: 1.25rem;
 }
 
+.header-content-buttons {
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+}
+
+.button {
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
 /* MAIN */
 
 #img-main{
