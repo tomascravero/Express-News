@@ -53,6 +53,11 @@ a {
     text-decoration: none;
 }
 
+.links {
+    color: #326891;
+    text-decoration: underline;
+}
+
 .container{
     width: 50rem;
     margin: 0 auto;
