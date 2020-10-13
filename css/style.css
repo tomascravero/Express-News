@@ -1,10 +1,10 @@
-body{
+body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 /* GLOBAL */ 
 
-h1{
+h1 {
     font-size: 2.5rem;
     font-weight: 100;
     line-height: 3.4375rem;
@@ -15,7 +15,7 @@ p {
     margin-bottom: 0.9375rem;
 }
 
-h2{
+h2 {
     font-size: 1.75rem;
     line-height: 2.125rem;
     font-weight: 400;
@@ -99,7 +99,7 @@ header {
     border-bottom: 1px solid #e2e2e2;
 }
 
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -109,7 +109,7 @@ header {
     padding: 4px 15px 2px 15px;
 }
 
-#menu-icon{
+#menu-icon {
     width: 1.25rem;
 }
 
@@ -129,77 +129,77 @@ header {
 
 /* MAIN */
 
-#img-main{
+#img-main {
     margin-top: 1.563rem;
     margin-bottom: 1.563rem;
 }
 
-.main-margin{
+.main-margin {
     margin-top: 3.75rem;
 }
 
-.container-main{
+.container-main {
     width: 37.5rem;
     margin: 1.563rem auto;
     /*border: solid 2px black;*/
 }
 
-.author-img{
+.author-img {
     width: 3.125rem;
     margin-right: 0.625rem;
     margin-bottom: 15px;
 }
 
-#author-name{
+#author-name {
     font-size: 0.9375rem;
     line-height: 1.25rem;
     font-weight: 700;
 }
 
-.main-content{
+.main-content {
     text-align: left;
 }
 
 /* SECTIONS */ 
 
-.section-container{
+.section-container {
     width: 75rem;
     margin: 2.813rem auto;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1.5fr 0.5fr;
 }
 
-.sect-content-flex{
+.sect-content-flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-.section-title{
+.section-title {
     font-size: 1rem;
     color: black;
     border-top: solid 1px black;
 }
 
-.section-content{
+.section-content {
     margin: 0.5rem 0.5rem 0.5rem 0;
     width: 32%;
 }
 
-.section-content a figure img{
+.section-content a figure img {
     justify-content: center;
     width: 100%;
 }
 
-.section-content a figure figcaption{
+.section-content a figure figcaption {
     font-size: 0.625rem;
     text-align: right;
 }
 
-.section-content a h3{
+.section-content a h3 {
     color: black;
     line-height: 1.375rem;
     font-weight: 500;
@@ -208,7 +208,7 @@ header {
 
 /* SECT MOST POPULAR */
 
-.section-pop h3{
+.section-pop h3 {
     border-top: 1px solid rgb(226, 226, 226);
     padding: 15px 0px;
 }
@@ -221,17 +221,17 @@ header {
 
 /* NAVIGATION */
 
-.nav-container{
+.nav-container {
     border-top: double;
 }
 
-.nav-content{
+.nav-content {
     display: flex;
     justify-content: space-between;
     margin-top: 0.625rem;
 }
 
-.nav-content h3{
+.nav-content h3 {
     font-family: sans-serif;
     color: rgb(51, 51, 51);
     font-size: 0.813rem;
@@ -243,7 +243,7 @@ header {
     width: 9.375rem;
 }
 
-.nav-content a{
+.nav-content a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: capitalize;
@@ -253,7 +253,7 @@ header {
     line-height: 1rem;
 }
 
-#go-home{
+#go-home {
     margin: 1.125rem 0 0 0;
     font-size: 0.688rem;
     color: rgb(86, 123, 149);
@@ -271,7 +271,7 @@ header {
     font-weight: 900;
 }
 
-#ul-sub-1{
+#ul-sub-1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
